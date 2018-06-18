@@ -9,5 +9,7 @@ require 'pry'
  }
 
 def get_the_values(groceries)
-  return groceries.values
+  list = []
+  list.push(groceries.values)
+  return list
 end
