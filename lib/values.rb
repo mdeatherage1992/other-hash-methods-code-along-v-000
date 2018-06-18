@@ -9,9 +9,5 @@ require 'pry'
  }
 
 def get_the_values(groceries)
-  list = []
-  msg = groceries.values
-  msg2 = msg.join(' ')
-  list.push(msg2)
-  return list
+  return groceries.values.flatten
 end
