@@ -10,6 +10,8 @@ require 'pry'
 
 def get_the_values(groceries)
   list = []
-  list.push(groceries.values)
+  msg = groceries.values
+  msg2 = msg.join(' ')
+  list.push(msg2)
   return list
 end
